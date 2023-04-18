@@ -1,0 +1,41 @@
+/* Style for the header */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* Style for the navbar container */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+/* Style for the links inside the navbar */
+.navbar a {
+  color: #333;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Style for the active link */
+.navbar a.active,
+.navbar a:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Style for the link on hover */
+.navbar a:hover {
+  transform: scale(1.1);
+}
